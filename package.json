@@ -1,0 +1,20 @@
+{
+  "name": "personalblog",
+  "version": "0.1.0",
+  "description": "A relaunch of my personal blog.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "blog"
+  ],
+  "author": "Max Sandelin",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "highlight.js": "^9.9.0",
+    "marked": "^0.3.6",
+    "pug": "^2.0.0-beta6"
+  }
+}

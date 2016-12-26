@@ -1,0 +1,16 @@
+html
+  head
+    title='Home | Max Sandelin'
+    
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Ubuntu:300,300i,400,400i,500,500i,700,700i')
+    link(rel='stylesheet', href='css/main.css')
+  body
+    div.container
+      div.wrapper
+        
+        h1 Hello, world! 👋
+        p My name is Max Sandelin and I'm a self-proclaimed creative nerd that likes to design and build stuff.
+        
+        ul
+          each file in [files]
+            li=file
